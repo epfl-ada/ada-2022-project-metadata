@@ -18,4 +18,4 @@ A list of research questions you would like to address during the project.
 ## Organization within the team
 
 ## Sources
-[Wikispeedia] https://snap.stanford.edu/data/wikispeedia.html
+[Wikispeedia] (https://snap.stanford.edu/data/wikispeedia.html)
