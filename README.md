@@ -19,7 +19,7 @@ To answer the question whether there exists a gender bias against women in the g
 In order to identify between articles about women and men, since we are only interested in paths that go from a certain source article to a target article either about a man or a woman, we aimed to filter out from the original dataset all target articles about women/men, i.e., that are classified in the category *People*. The distribution of number of articles within each caregory in the original dataframe can be seen in fig1. 
 
 <p align="center">
-<img width="608" alt="figure1" src="https://user-images.githubusercontent.com/52750379/202448394-cdcae697-d452-4b8f-be9e-dda58278e6c3.png">
+    <img width="645" alt="figure1" src="https://user-images.githubusercontent.com/52750379/202451289-2afddaad-f4dc-492f-ab23-1540b49c2fe6.png">
 </p>
 
 
