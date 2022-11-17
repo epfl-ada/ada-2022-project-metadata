@@ -1,5 +1,5 @@
 # Wikiwomen: An analysis on gender bias
-* metADAta: Malin Svenberg, Maresa Fees, Greta Tuori, Valgerdur Jónsdóttir *
+*metADAta: Malin Svenberg, Maresa Fees, Greta Tuori, Valgerdur Jónsdóttir*
 
 ## Abstract
 
