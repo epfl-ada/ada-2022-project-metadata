@@ -15,7 +15,8 @@ To answer the question whether there exists a gender bias against women in the g
 ## Additional datasets
 In order to identify between articles about women and men, since we are only interested in paths that go from a certain source article to a target article either about a man or a woman, we aimed to filter out from the original dataset all target articles about women/men. 
 
-![My Image](images/figure1.jpg)
+[figure1.pdf](https://github.com/epfl-ada/ada-2022-project-metadata/files/10030044/figure1.pdf)
+
 
 
 ## Methods
