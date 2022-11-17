@@ -20,7 +20,7 @@ In order to identify between articles about women and men, since we are only int
 
 - IMAGE: distribution
 
-Our first idea to identify the gender of articles was to use Wikidata:SPARQL query service to extract and build a list of Wikipedia articles about women, and compare this list to our articles about people. However, this turned out to be an infeasible solution, since this method did not find every woman article in our dataset. Our second attempt was a brute-force method, where we went through a list of all articles about people and identified those who where about women. Out of all the articles, only 6% where about women, so this method turned out to be not as difficult as one would suppose beforehand. The resulting dataframe consists of a list of articles about women and their corresponding subcategory within the *People* category. 
+Our first idea to identify the gender of articles was to use Wikidata:SPARQL query service to extract and build a list of Wikipedia articles about women, and compare this list to our articles about people. However, this turned out to be an infeasible solution, since this method did not find every woman article in our dataset. Our second attempt was a brute-force method, where we went through a list of all articles about people and identified those who where about women. Out of all the articles, only 6% where about women, so this method turned out to be not as difficult as one would suppose beforehand. The resulting dataframe consists of a list of articles about women and their corresponding subcategory within the *People* category. The file, `listwomen.txt`, can be found in the folder `/data/`.
 
 ## Methods
 
@@ -32,33 +32,34 @@ Our first idea to identify the gender of articles was to use Wikidata:SPARQL que
 
 ### Step 4
 
-## Proposed timeline
+## Proposed timeline and internal milestones
 Our timeline consists of internal milestones on every Tuesday and Friday until the project deadline.
 
 - 18.11.22: **Project milestone 2 deadline**
     - Pre-proccesing of data finished, construct a main dataframe for our analysis.
----   
+---
 - 22.11.22: 
 - 25.11.22:
 ---
 - 29.11.22: Project work paused in order to work on Homework 2.
 - 2.12.22: **Homework 2 deadline**
 ---
-- 6.12.22:
+- 6.12.22: 
 - 9.12.22: 
 ---
 - 13.12.22:
 - 16.12.22:
 ---
-- 20.12.22: Complete datastory.
+- 20.12.22: Complete the data story.
 - 23.12.22: **Project milestone 3 deadline**
 
 ## Organization within the team
 
+Malin: Plotting graphs during data analysis, crawling the data, preliminary data analysis
+Maresa: Problem formulation, coming up with the algorithm
+Greta: Coding up the algorithm, running tests, tabulating final results
+Valgerdur: Writing up the report or the data story, preparing the final presentation
+
 
 ## Sources
 [Wikispeedia](https://snap.stanford.edu/data/wikispeedia.html)
-
-
-### Dataset information
-The Wikispeedia dataset contains human navigation paths on Wikipedia, collected through the human-computation game Wikispeedia. In Wikispeedia, users are asked to navigate from a given source to a given target article, by only clicking Wikipedia links. A condensed version of Wikipedia (4,604 articles) is used. In addition to the navigation paths, we provide the full HTML package of this version of Wikipedia, as well as all articles in plaintext.
