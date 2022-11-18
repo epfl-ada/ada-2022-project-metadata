@@ -9,6 +9,7 @@ Throughout history, women have been marginalised in many communities and in the 
 
 To answer the question whether there exists a gender bias against women in the game of Wikispeedia, we aim to answer the following:
 - Controlling for all confounding factors and only the gender being the difference, are the paths to target articles about women longer than those for men?
+- Can we predict the gender of an article using textual content (regression)?
     - Do users find the paths that have a target article related to women more difficult than the average difficulty of path navigation? 
     - Is the play duration for target article about women longer than the average play duration?
     - Are there more back clicks in the paths that have a target article about women? 
@@ -16,47 +17,62 @@ To answer the question whether there exists a gender bias against women in the g
 
 ## Additional datasets
 
-In order to identify between articles about women and men, since we are only interested in paths that go from a certain source article to a target article either about a man or a woman, we aimed to filter out from the original dataset all target articles about women/men, i.e., that are classified as *People*. The distribution of number of articles within each caregory in the original dataframe can be seen in fig1. 
+In order to identify between articles about women and men, since we are only interested in paths that go from a certain source article to a target article either about a man or a woman, we aimed to filter out from the original dataset all target articles about women/men, i.e., that are classified as *People*. 
 
-<p align="center">
-<img width="645" alt="figure1" src="https://user-images.githubusercontent.com/52750379/202575487-c48dd088-85ad-49ef-987f-445032db8b95.png">
-</p>
-
-Our first idea to identify the gender of articles was to use Wikidata:SPARQL query service to extract and build a list of Wikipedia articles about women, and compare this list to our articles about people. However, this turned out to be an infeasible solution, since this method did not find every woman article in our dataset. Our second attempt was a brute-force method, where we went through a list of all articles about people and identified those who where about women. Out of all the articles, only 6% where about women, so this method turned out to be not as difficult as one would suppose beforehand. The resulting dataframe consists of a list of articles about women and their corresponding subcategory within the *People* category. The file, `listwomen.txt`, can be found in the folder `/data/`.
-
-- all_paths_overview.csv
-- people_overview.csv
+Our first idea to identify the gender of articles was to use Wikidata:SPARQL query service to extract and build a list of Wikipedia articles about women, and compare this list to our articles about people. However, this turned out to be an infeasible solution, since this method did not find every woman article in our dataset. Our second attempt was a brute-force method, where we went through a list of all articles about people and identified those who where about women. Out of all the articles, only 6% where about women. The resulting dataframe consists of a list of articles about women and their corresponding subcategory within the *People* category. The file, *listwomen.txt*, can be found in the folder `/data/`. Additionally, there are two more datasets in the folder `/data/`, called *all_paths_overview.csv* and *people_overview.csv*, that are the results of our pre-proccessing further elaborated on in our project notebook and below.
 
 ## Methods
 
 ### Pre-proccessing and dataset construction
-We carry on with work performed for Project Milestone 2
+In order to carry on with meaningful analysis of our project goals, we need to construct a framework with relevant information, i.e., information about articles about people and the paths that point to target articles within the category of *People*. In the following figure, this is emphasized with respect to the distribution of number of articles within each category in the original dataframe (where the odd colored bar contains the number of articles that are about people).
+
+<p align="center">
+    <img width="645" alt="figure1" src="https://user-images.githubusercontent.com/52750379/202575487-c48dd088-85ad-49ef-987f-445032db8b95.png">
+</p>
+
+Additionally, labelling articles about women and men is necessary and provides us with the possibility to compare the paths that have women as a target article versus the ones that have men as a target arcticle. In the following figure, we can see the amount of articles about women compared to those about men within each subcategory of the *People* category.
+ 
+<p align="center">
+   <img width="493" alt="figure2" src="https://user-images.githubusercontent.com/52750379/202689884-60dee98b-064a-45d6-86f0-8e176f713a7a.png"> 
+</p>
+
+Calculation of statistical metrics and other relevant information concerning our project goals has to be extracted and added to our main dataframes. This information includes:
+- Human path length: the number of steps it takes a human to navigate from a source to a target
+- Shortest path length: the lowest possible number of steps it takes to navigate from a source to a target
+- Difficulty rating: user's evaluation of an objective path
+- Playtime duration
+- Success rate: rate of finished path compared to unfinished paths
+- In-degree: number of links towards a target article
+- Path deviation: ATH
 
 ### Statistical analysis
 
 Naive analysis would be check the difference between these metrics and advance is the controlling
 
-### Regression on fem/masculin words
+#### Naive analysis
+
+#### Controlling for confounding factors
+
+
+### Regression/Prediction on fem/masculin words
 
 
 ## Proposed timeline and internal milestones
 Our timeline consists of internal milestones on every Tuesday and Friday until the project deadline.
 
 - 18.11.22: **Project milestone 2 deadline**
-    - Pre-proccesing of data finished, construct a main dataframe for our analysis.
+    - Pre-proccesing and cleaning of data finished, initial data analysis started.
 ---
-- 22.11.22: Final data preperation. 
-- 25.11.22: Finish naive analysis.
+- 22.11.22: Review previous work, statistical analysis and carry on with data analyzation.
+- 25.11.22: Finish naive analysis. 
 ---
 - 29.11.22: Project work paused in order to work on Homework 2.
 - 2.12.22: **Homework 2 deadline**
 ---
-- 6.12.22: Controlling analysis.
-- 9.12.22: Visulizations, refinements, exploration
-    
+- 6.12.22: Finish comparison of paths, controlling for all confounding factors.
+- 9.12.22: Finish prediction of textual context.
 ---
-- 13.12.22: Construct a rought draft of the data story.
-    - Familiarize ourselves with prevoius data stories.
+- 13.12.22: Visulizations and refinements. Construct a rought draft of the data story.
 - 16.12.22: Work on data story.
 ---
 - 20.12.22: Complete the data story, add all necessary information to the final notebook and update README.
@@ -64,14 +80,13 @@ Our timeline consists of internal milestones on every Tuesday and Friday until t
 
 ## Organization within the team
 
-Malin: Plotting graphs during data analysis, crawling the data, preliminary data analysis
+Malin: Initial data analysis and plots. Statistical analysis.
 
-Maresa: Preliminary data analysis
+Maresa: Pre-proccessing data. Initial data analysis and plots. Prediction of textual context.
 
-Greta: Coding up the algorithm, running tests, tabulating final results
+Greta: Develop textual context for data story. Website development. Visualizations for data story.
 
-Valgerdur: Writing up the report or the data story, preparing the final presentation??
-
+Valgerdur: Statistical analysis. Develop textual context for data story. Overview of notebook and README.
 
 ## Sources
 [Wikispeedia](https://snap.stanford.edu/data/wikispeedia.html)
