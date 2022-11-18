@@ -33,7 +33,7 @@ In order to carry on with meaningful analysis of our project goals, we need to c
 Additionally, labelling articles about women and men is necessary and provides us with the possibility to compare the paths that have women as a target article versus the ones that have men as a target arcticle. In the following figure, we can see the amount of articles about women compared to those about men within each subcategory of the *People* category.
  
 <p align="center">
-   <img width="493" alt="figure2" src="https://user-images.githubusercontent.com/52750379/202689884-60dee98b-064a-45d6-86f0-8e176f713a7a.png"> 
+    <img width="651" alt="figure1" src="https://user-images.githubusercontent.com/52750379/202788953-211d8fff-b9a6-4662-9913-595911344e93.png">
 </p>
 
 Calculation of statistical metrics and other relevant information concerning our project goals has to be extracted and added to our main dataframes, such as the human path length (the number of steps it takes a human to navigate from a source to a target), the shortest path lenght (the lowest possible number of steps it takes to navigate from a source to a target) and other statistical metrics mentioned in the following section.
