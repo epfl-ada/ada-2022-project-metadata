@@ -47,14 +47,37 @@ Calculation of statistical metrics and other relevant information concerning our
 
 ### Statistical analysis
 
-Naive analysis would be check the difference between these metrics and advance is the controlling
+In order for us to make statements about the dataset we have defined a few metrics/outcomes that will guide us during our analysis. 
+
+- **success**: what influence does the gender of the article have on the success of being reached
+- **in_degree**: what influence does the gender have on the in_degree of the article
+- **playtime**: what, if any, influence does the gender of the target article have on the playtime of the path
+- **path deviation**: what influence does the gender of the article have on the path deviation between a human path and the shortest path
+
+
+
 
 #### Naive analysis
 
+At the start of the the analysis would be a naive statistical analysis. This means checking for differences in the metrices as defined above. These differences will be checked for significance using bootstrap confidence intervals among others. One key point to note, is the fact that we are working with a power law (network), therefore the median will be the main metric. We are aware that these statements cannot be used on their own, as there is no control over the factors.
+
 #### Controlling for confounding factors
+The next step will be an analysis where the factors are controlled. 
+Depending on the amount of data available, the matching will be constrained by different parameters. 
 
+The strongest matching would be controlling for 
+1. starting at the same source article
+2. having the same shortest path between source and target
+3. targets in the same sub-category (male scientist vs female scientist)
+4. targets having a similiar/same in_degree
 
-### Regression/Prediction on fem/masculin words
+Constraints (1) and (2) are the minimum requirements. As all of these constraints might be too strict we can vary or omit (3) and (4). 
+
+One suggestions for a variation of (3) manually group sub-categories into bigger categories
+
+### Further explorations
+
+We started to explore the textual context e.g use of specific words for female and male articles. After finishing the analysis on the metrics, we want to further discover the relationship between the usage of gender-related words leading to a gender bias in the dataset. 
 
 
 ## Proposed timeline and internal milestones
