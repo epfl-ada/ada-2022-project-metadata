@@ -27,13 +27,13 @@ Our first idea to identify the gender of articles was to use Wikidata:SPARQL que
 In order to carry on with meaningful analysis of our project goals, we need to construct a framework with relevant information, i.e., information about articles about people and the paths that point to target articles within the category of *People*. In the following figure, this is emphasized with respect to the distribution of number of articles within each category in the original dataframe (where the odd colored bar contains the number of articles that are about people).
 
 <p align="center">
-    <img width="651" alt="figure1" src="https://user-images.githubusercontent.com/52750379/202788953-211d8fff-b9a6-4662-9913-595911344e93.png">
+<img width="634" alt="figure1" src="https://user-images.githubusercontent.com/52750379/202790954-5ad2f764-dc05-4f26-b065-74d367f88d6e.png">
 </p>
 
 Additionally, labelling articles about women and men is necessary and provides us with the possibility to compare the paths that have women as a target article versus the ones that have men as a target arcticle. In the following figure, we can see the amount of articles about women compared to those about men within each subcategory of the *People* category.
  
 <p align="center">
-    <img width="651" alt="figure2" src="https://user-images.githubusercontent.com/52750379/202789267-c758599b-5ec1-401b-ab87-8696ed959376.png">
+<img width="634" alt="figure2" src="https://user-images.githubusercontent.com/52750379/202790967-74f0fe9d-a666-4e35-8654-04590351888b.png">
 </p>
 
 Calculation of statistical metrics and other relevant information concerning our project goals has to be extracted and added to our main dataframes, such as the human path length (the number of steps it takes a human to navigate from a source to a target), the shortest path lenght (the lowest possible number of steps it takes to navigate from a source to a target) and other statistical metrics mentioned in the following section.
