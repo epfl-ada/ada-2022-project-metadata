@@ -54,31 +54,29 @@ In order for us to make statements about the dataset we have defined a few metri
 - **playtime**: what, if any, influence does the gender of the target article have on the playtime of the path
 - **path deviation**: what influence does the gender of the article have on the path deviation between a human path and the shortest path
 
-
-
-
 #### Naive analysis
 
-At the start of the the analysis would be a naive statistical analysis. This means checking for differences in the metrices as defined above. These differences will be checked for significance using bootstrap confidence intervals among others. One key point to note, is the fact that we are working with a power law (network), therefore the median will be the main metric. We are aware that these statements cannot be used on their own, as there is no control over the factors.
+The first step of our data analysis will be a naive statistical analysis, where we will check for differences in the metrics defined above. These differences will be checked for significance using bootstrap confidence intervals among others. One key point to note, is the fact that we are working with a power law (network), therefore the median will be the main metric. We are aware that these statements cannot be used on their own, as there is no control over the confounding factors.
 
 #### Controlling for confounding factors
-The next step will be an analysis where the factors are controlled. 
+
+Our next step will focus on controlling for the confounding factors to get a meaningful results whether there exists a gender bias against women.
 Depending on the amount of data available, the matching will be constrained by different parameters. 
 
-The strongest matching would be controlling for 
-1. starting at the same source article
-2. having the same shortest path between source and target
-3. targets in the same sub-category (male scientist vs female scientist)
-4. targets having a similiar/same in_degree
+The strongest matching would control for 
 
-Constraints (1) and (2) are the minimum requirements. As all of these constraints might be too strict we can vary or omit (3) and (4). 
+1. starting a path at the same source article
+2. having the same shortest path length between a source article and a target article
+3. having target articles in the same sub-category (e.g. male scientist vs. female scientist)
+4. having target articles with a similiar or the same in_degree
 
-One suggestions for a variation of (3) manually group sub-categories into bigger categories
+Constraints (1) and (2) are the minimum requirements. Simultaneously, all four constraints might be too strict so we will relax our constraints by either omitting constraints (3) and (4) or using a variation of constraint (3).
+
+One suggestions for a variation of (3) is to manually group sub-categories into bigger categories (e.g. combine *Political_People* and *USA_Presidents* into one group).
 
 ### Further explorations
 
-We started to explore the textual context e.g use of specific words for female and male articles. After finishing the analysis on the metrics, we want to further discover the relationship between the usage of gender-related words leading to a gender bias in the dataset. 
-
+We have also started to explore the textual context of articles within the *People* category, e.g. the use of specific words for female and male articles. After finishing the analysis on the metrics, we want to further discover the relationship between the usage of gender-related words leading to a gender bias in the dataset. 
 
 ## Proposed timeline and internal milestones
 Our timeline consists of internal milestones on every Tuesday and Friday until the project deadline.
@@ -95,7 +93,7 @@ Our timeline consists of internal milestones on every Tuesday and Friday until t
 - 6.12.22: Finish comparison of paths, controlling for all confounding factors.
 - 9.12.22: Finish prediction of textual context.
 ---
-- 13.12.22: Visulizations and refinements. Construct a rought draft of the data story.
+- 13.12.22: Visualizations and refinements. Construct a rought draft of the data story.
 - 16.12.22: Work on data story.
 ---
 - 20.12.22: Complete the data story, add all necessary information to the final notebook and update README.
