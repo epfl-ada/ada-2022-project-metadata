@@ -3,7 +3,7 @@
 
 ## Abstract
 
-Throughout history, women have been marginalised in many communities and in the last few years, gender bias against women has become even more visible in internet applications and online search. One example of such is Google Translate when translating from one language to another. This gender bias that appears online is in fact a reflection of the gender bias in our society. Therefore, we would like to investigate whether there exists a gender bias against women when people play the game of Wikispeedia. In Wikispeedia, people are asked to navigate from a given source article to a certain target article on Wikipedia. The Wikispeedia dataset provides human navigation paths on Wikipedia which we can indeed use to answer whether there exists gender bias against women when users navigate from a given source article to a target article, where the target article relates to women.
+Throughout history, women have been marginalised in many communities and in the last few years, gender bias against women has become even more visible in internet applications and online search. In Wikipedia, women are more linked to men than vice versa (Wagner et al. 2021) and Google Translate has tendency towards male defaults (Prates et al. 2020). Gender bias that appears online is in fact a reflection of the gender bias in our society. Therefore, we would like to investigate whether there exists a gender bias against women in Wikispeedia. In Wikispeedia, people are asked to navigate from a given source article to a certain target article on Wikipedia. The Wikispeedia dataset provides human navigation paths on Wikipedia which we can indeed use to answer whether there exists gender bias against women when users navigate from a given source article to a target article, where the target article relates to women.
 
 ## Research questions
 
@@ -103,4 +103,8 @@ Greta: Develop textual context for data story. Website development. Visualizatio
 Valgerdur: Statistical analysis. Develop textual context for data story. Overview of notebook and README.
 
 ## Sources
+Prates, M.O.R., Avelar, P.H. & Lamb, L.C. (2020) Assessing gender bias in machine translation: a case study with Google Translate. Neural Comput & Applic 32, 6363–6381. https://doi.org/10.1007/s00521-019-04144-6
+
+Wagner, C., Garcia, D., Jadidi, M., & Strohmaier, M. (2021). It’s a Man’s Wikipedia? Assessing Gender Inequality in an Online Encyclopedia. Proceedings of the International AAAI Conference on Web and Social Media, 9(1), 454-463. https://doi.org/10.1609/icwsm.v9i1.14628
+
 [Wikispeedia](https://snap.stanford.edu/data/wikispeedia.html)
