@@ -2,7 +2,7 @@
 95,Abel_Tasman,Geographers_and_explorers,male,14,5,9.0,2.0,7.0,0.7777777777777778
 105,Abraham_Lincoln,USA_Presidents,male,35,62,37.0,2.0,35.0,0.9459459459459459
 129,Adam_Smith,Historical_figures,male,27,38,11.0,2.0,9.0,0.8181818181818182
-134,Adolf_Hitler,Political_People,male,78,109,697.0,94.0,603.0,0.8651362984218077
+134,Adolf_Hitler,Political_People,male,78,109,695.0,94.0,601.0,0.8647482014388489
 159,Agamemnon,Historical_figures,male,11,9,26.0,7.0,19.0,0.7307692307692307
 170,Akbar,Historical_figures,male,16,11,1.0,1.0,,
 172,Akhenaten,Historical_figures,male,12,5,6.0,1.0,5.0,0.8333333333333334
@@ -19,9 +19,10 @@
 201,Alexander_the_Great,Military_People,male,56,78,27.0,3.0,24.0,0.8888888888888888
 202,Alfred_Hitchcock,Producers_directors_and_media_figures,male,23,15,13.0,6.0,7.0,0.5384615384615384
 203,Alfred_Nobel,Chemists,male,15,6,17.0,4.0,13.0,0.7647058823529411
-205,Alfred_the_Great,Military_People,male,29,21,5.0,1.0,4.0,0.8
+205,Alfred_the_Great,Military_People,male,29,21,10.0,2.0,8.0,0.8
+206,Alfred_the_Great,Monarchs_of_Great_Britain,male,29,21,10.0,2.0,8.0,0.8
 270,Andr%C3%A9s_Nocioni,Sports_and_games_people,male,11,1,1.0,1.0,,
-271,Andrew_Carnegie,Engineers_and_inventors,male,41,12,23.0,19.0,4.0,0.17391304347826086
+271,Andrew_Carnegie,Engineers_and_inventors,male,41,12,22.0,18.0,4.0,0.18181818181818182
 272,Andrew_Dickson_White,Political_People,male,11,2,1.0,1.0,,
 274,Andrew_Jackson,USA_Presidents,male,16,22,17.0,4.0,13.0,0.7647058823529411
 275,Andrew_Johnson,USA_Presidents,male,8,16,10.0,1.0,9.0,0.9
@@ -45,7 +46,8 @@
 388,Arthur_Wellesley%2C_1st_Duke_of_Wellington,Military_People,male,43,24,5.0,1.0,4.0,0.8
 408,Athanasius_Kircher,Human_Scientists,male,51,3,2.0,2.0,,
 422,Attalus_I,Historical_figures,male,12,2,2.0,2.0,,
-424,Attila_the_Hun,Historical_figures,male,35,15,15.0,4.0,11.0,0.7333333333333333
+424,Attila_the_Hun,Historical_figures,male,35,15,30.0,8.0,22.0,0.7333333333333333
+425,Attila_the_Hun,Military_People,male,35,15,30.0,8.0,22.0,0.7333333333333333
 428,Augusta%2C_Lady_Gregory,Writers_and_critics,female,23,1,,,,
 430,Auguste_Rodin,Artists,male,16,8,8.0,3.0,5.0,0.625
 431,Augustine_of_Hippo,Religious_figures_and_leaders,male,21,42,8.0,1.0,7.0,0.875
@@ -62,7 +64,8 @@
 614,Benito_Mussolini,Political_People,male,42,22,24.0,1.0,23.0,0.9583333333333334
 616,Benjamin_Britten,Performers_and_composers,male,9,14,7.0,3.0,4.0,0.5714285714285714
 619,Benjamin_Disraeli%2C_1st_Earl_of_Beaconsfield,Political_People,male,21,22,,,,
-620,Benjamin_Franklin,Astronomers_and_physicists,male,29,32,19.0,3.0,16.0,0.8421052631578947
+620,Benjamin_Franklin,Astronomers_and_physicists,male,29,32,38.0,6.0,32.0,0.8421052631578947
+621,Benjamin_Franklin,Historical_figures,male,29,32,38.0,6.0,32.0,0.8421052631578947
 622,Benjamin_Harrison,USA_Presidents,male,20,14,10.0,1.0,9.0,0.9
 634,Bernard_Hinault,Sports_and_games_people,male,5,4,,,,
 635,Bertrand_Russell,Philosophers,male,69,30,10.0,1.0,9.0,0.9
@@ -106,7 +109,7 @@
 963,Charles_Dickens,Writers_and_critics,male,24,38,20.0,4.0,16.0,0.8
 964,Charles_Etienne_Brasseur_de_Bourbourg,Writers_and_critics,male,20,4,2.0,2.0,,
 966,Charles_II_of_England,Monarchs_of_Great_Britain,male,49,72,7.0,2.0,5.0,0.7142857142857143
-968,Charles_I_of_England,Monarchs_of_Great_Britain,male,41,64,22.0,3.0,19.0,0.8636363636363636
+968,Charles_I_of_England,Monarchs_of_Great_Britain,male,41,64,21.0,3.0,18.0,0.8571428571428571
 969,Charles_Sumner,Historical_figures,male,13,5,5.0,1.0,4.0,0.8
 970,Charles_V%2C_Holy_Roman_Emperor,Historical_figures,male,26,43,18.0,6.0,12.0,0.6666666666666666
 971,Charlie_Chaplin,Actors_models_and_celebrities,male,31,10,35.0,8.0,27.0,0.7714285714285715
@@ -156,7 +159,7 @@
 1433,Earl_of_Shaftesbury,Political_People,male,4,3,1.0,1.0,,
 1462,Edgar_Allan_Poe,Writers_and_critics,male,50,19,21.0,7.0,14.0,0.6666666666666666
 1466,Edmond_Halley,Mathematicians,male,20,10,4.0,,4.0,1.0
-1469,Edmund_Burke,Political_People,male,42,15,4.0,,4.0,1.0
+1469,Edmund_Burke,Political_People,male,42,15,2.0,,2.0,1.0
 1470,Edmund_Hillary,Geographers_and_explorers,male,14,4,7.0,2.0,5.0,0.7142857142857143
 1477,Edward_II_of_England,Monarchs_of_Great_Britain,male,12,13,20.0,5.0,15.0,0.75
 1479,Edward_IV_of_England,Monarchs_of_Great_Britain,male,17,16,13.0,4.0,9.0,0.6923076923076923
@@ -165,7 +168,8 @@
 1483,Edward_Teller,Astronomers_and_physicists,male,32,8,9.0,4.0,5.0,0.5555555555555556
 1485,Edward_VIII_of_the_United_Kingdom,Monarchs_of_Great_Britain,male,40,15,14.0,3.0,11.0,0.7857142857142857
 1487,Edward_VII_of_the_United_Kingdom,Monarchs_of_Great_Britain,male,48,31,13.0,2.0,11.0,0.8461538461538461
-1491,Edward_the_Confessor,Monarchs_of_Great_Britain,male,18,25,7.0,3.0,4.0,0.5714285714285714
+1491,Edward_the_Confessor,Monarchs_of_Great_Britain,male,18,25,14.0,6.0,8.0,0.5714285714285714
+1492,Edward_the_Confessor,Religious_figures_and_leaders,male,18,25,14.0,6.0,8.0,0.5714285714285714
 1494,Edwin_of_Northumbria,Historical_figures,male,14,7,1.0,1.0,,
 1505,Eilmer_of_Malmesbury,Historical_figures,male,4,2,1.0,1.0,,
 1509,El_Lissitzky,Artists,male,38,2,3.0,3.0,,
@@ -203,7 +207,8 @@
 1797,Frederick_II_of_Prussia,Historical_figures,male,35,8,12.0,8.0,4.0,0.3333333333333333
 1808,Friedrich_Nietzsche,Philosophers,male,49,27,11.0,1.0,10.0,0.9090909090909091
 1820,Fyodor_Dostoevsky,Writers_and_critics,male,26,18,6.0,2.0,4.0,0.6666666666666666
-1837,Galileo_Galilei,Astronomers_and_physicists,male,48,45,19.0,4.0,15.0,0.7894736842105263
+1837,Galileo_Galilei,Astronomers_and_physicists,male,48,45,38.0,8.0,30.0,0.7894736842105263
+1838,Galileo_Galilei,Engineers_and_inventors,male,48,45,38.0,8.0,30.0,0.7894736842105263
 1860,Gautama_Buddha,Religious_figures_and_leaders,male,18,23,13.0,1.0,12.0,0.9230769230769231
 1870,Genghis_Khan,Historical_figures,male,58,25,36.0,7.0,29.0,0.8055555555555556
 1882,Georg_Cantor,Mathematicians,male,22,12,1.0,1.0,,
@@ -300,7 +305,8 @@
 2499,James_Clerk_Maxwell,Astronomers_and_physicists,male,27,27,6.0,2.0,4.0,0.6666666666666666
 2500,James_Cook,Geographers_and_explorers,male,47,29,9.0,4.0,5.0,0.5555555555555556
 2501,James_D._Watson,Human_Scientists,male,16,7,10.0,2.0,8.0,0.8
-2502,James_Garfield,Political_People,male,18,5,11.0,5.0,6.0,0.5454545454545454
+2502,James_Garfield,Political_People,male,18,5,22.0,10.0,12.0,0.5454545454545454
+2503,James_Garfield,USA_Presidents,male,18,5,22.0,10.0,12.0,0.5454545454545454
 2505,James_II_of_England,Monarchs_of_Great_Britain,male,38,43,21.0,3.0,18.0,0.8571428571428571
 2507,James_I_of_England,Monarchs_of_Great_Britain,male,33,49,13.0,3.0,10.0,0.7692307692307693
 2508,James_Joyce,Writers_and_critics,male,36,31,5.0,,5.0,1.0
@@ -308,7 +314,8 @@
 2510,James_Lovelock,Writers_and_critics,male,19,3,1.0,1.0,,
 2511,James_Monroe,USA_Presidents,male,19,12,22.0,6.0,16.0,0.7272727272727273
 2512,James_Stewart_%28actor%29,Actors_models_and_celebrities,male,22,5,10.0,6.0,4.0,0.4
-2514,James_Watt,Astronomers_and_physicists,male,15,7,5.0,,5.0,1.0
+2514,James_Watt,Astronomers_and_physicists,male,15,7,10.0,,10.0,1.0
+2515,James_Watt,Engineers_and_inventors,male,15,7,10.0,,10.0,1.0
 2517,Jane_Austen,Writers_and_critics,female,23,17,11.0,3.0,8.0,0.7272727272727273
 2519,Jane_Fonda,Actors_models_and_celebrities,female,25,8,4.0,4.0,,
 2528,Jean-Jacques_Rousseau,Philosophers,male,30,34,10.0,2.0,8.0,0.8
@@ -374,7 +381,8 @@
 2754,Leif_Ericson,Geographers_and_explorers,male,15,3,18.0,5.0,13.0,0.7222222222222222
 2762,Leo_Tolstoy,Writers_and_critics,male,29,22,14.0,9.0,5.0,0.35714285714285715
 2763,Leon_Trotsky,Political_People,male,45,17,22.0,1.0,21.0,0.9545454545454546
-2764,Leonardo_da_Vinci,Artists,male,47,34,70.0,7.0,63.0,0.9
+2764,Leonardo_da_Vinci,Artists,male,47,34,140.0,14.0,126.0,0.9
+2765,Leonardo_da_Vinci,Engineers_and_inventors,male,47,34,140.0,14.0,126.0,0.9
 2766,Leonhard_Euler,Mathematicians,male,33,20,7.0,1.0,6.0,0.8571428571428571
 2807,Linus_Pauling,Chemists,male,52,17,8.0,,8.0,1.0
 2808,Linus_Torvalds,Computing_People,male,14,10,11.0,5.0,6.0,0.5454545454545454
@@ -404,7 +412,7 @@
 2998,Margaret_Thatcher,Political_People,female,72,38,12.0,1.0,11.0,0.9166666666666666
 3002,Marie_Curie,Chemists,female,17,10,17.0,9.0,8.0,0.47058823529411764
 3006,Mark_Antony,Historical_figures,male,19,16,5.0,,5.0,1.0
-3007,Mark_Twain,Writers_and_critics,male,17,33,12.0,5.0,7.0,0.5833333333333334
+3007,Mark_Twain,Writers_and_critics,male,17,33,11.0,5.0,6.0,0.5454545454545454
 3009,Mark_Webber,Sports_and_games_people,male,19,1,,,,
 3020,Martin_Luther,Religious_figures_and_leaders,male,22,38,20.0,3.0,17.0,0.85
 3021,Martin_Luther_King%2C_Jr.,Political_People,male,44,24,16.0,3.0,13.0,0.8125
@@ -444,12 +452,14 @@
 3356,Niccol%C3%B2_Paganini,Performers_and_composers,male,14,6,1.0,1.0,,
 3360,Nicolaus_Copernicus,Astronomers_and_physicists,male,45,21,14.0,4.0,10.0,0.7142857142857143
 3361,Niels_Bohr,Astronomers_and_physicists,male,28,22,10.0,2.0,8.0,0.8
-3369,Nikola_Tesla,Astronomers_and_physicists,male,53,15,19.0,5.0,14.0,0.7368421052631579
+3369,Nikola_Tesla,Astronomers_and_physicists,male,53,15,38.0,10.0,28.0,0.7368421052631579
+3370,Nikola_Tesla,Engineers_and_inventors,male,53,15,38.0,10.0,28.0,0.7368421052631579
 3371,Nikolai_Rimsky-Korsakov,Performers_and_composers,male,6,7,5.0,1.0,4.0,0.8
 3395,Norman_Borlaug,Human_Scientists,male,59,3,5.0,5.0,,
 3413,Nostradamus,Religious_figures_and_leaders,male,25,2,3.0,3.0,,
 3442,Olaudah_Equiano,Historical_figures,male,11,1,,,,
-3450,Oliver_Cromwell,Historical_figures,male,32,48,8.0,3.0,5.0,0.625
+3450,Oliver_Cromwell,Historical_figures,male,32,48,16.0,6.0,10.0,0.625
+3451,Oliver_Cromwell,Monarchs_of_Great_Britain,male,32,48,16.0,6.0,10.0,0.625
 3453,Ollanta_Humala,Political_People,male,17,1,11.0,6.0,5.0,0.45454545454545453
 3499,Osama_bin_Laden,Political_People,male,48,15,49.0,7.0,42.0,0.8571428571428571
 3509,Otto_von_Bismarck,Historical_figures,male,26,9,11.0,2.0,9.0,0.8181818181818182
@@ -550,7 +560,8 @@
 4701,Tony_Blair,Political_People,male,87,44,35.0,3.0,32.0,0.9142857142857143
 4789,Tupac_Shakur,Performers_and_composers,male,18,4,26.0,8.0,18.0,0.6923076923076923
 4809,Tycho_Brahe,Astronomers_and_physicists,male,37,16,8.0,3.0,5.0,0.625
-4833,Ulysses_S._Grant,Military_People,male,33,26,15.0,3.0,12.0,0.8
+4833,Ulysses_S._Grant,Military_People,male,33,26,30.0,6.0,24.0,0.8
+4834,Ulysses_S._Grant,USA_Presidents,male,33,26,30.0,6.0,24.0,0.8
 4899,Vasco_da_Gama,Geographers_and_explorers,male,18,21,8.0,1.0,7.0,0.875
 4915,Victor_Hugo,Writers_and_critics,male,31,12,13.0,7.0,6.0,0.46153846153846156
 4918,Victoria_of_the_United_Kingdom,Historical_figures,female,50,77,16.0,1.0,15.0,0.9375
@@ -572,7 +583,8 @@
 5065,Willem_Barents,Geographers_and_explorers,male,7,2,2.0,2.0,,
 5066,William_Butler_Yeats,Writers_and_critics,male,16,20,14.0,3.0,11.0,0.7857142857142857
 5067,William_Edington,Historical_figures,male,6,1,,,,
-5068,William_Ewart_Gladstone,Historical_figures,male,40,20,7.0,1.0,6.0,0.8571428571428571
+5068,William_Ewart_Gladstone,Historical_figures,male,40,20,14.0,2.0,12.0,0.8571428571428571
+5069,William_Ewart_Gladstone,Political_People,male,40,20,14.0,2.0,12.0,0.8571428571428571
 5070,William_Gilbert,Historical_figures,male,10,4,7.0,2.0,5.0,0.7142857142857143
 5072,William_Harvey,Human_Scientists,male,7,7,,,,
 5073,William_Henry_Harrison,USA_Presidents,male,17,12,10.0,,10.0,1.0
