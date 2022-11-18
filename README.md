@@ -8,8 +8,8 @@ Throughout history, women have been marginalised in many communities and in the 
 ## Research questions
 
 To answer the question whether there exists a gender bias against women in the game of Wikispeedia, we aim to answer the following:
-- Controlling for all confounding factors and only the gender being the difference, are the paths to target articles about women longer than those for men?
-- Can we predict the gender of an article using textual content (regression)?
+- Controlling for all confounding factors and only the gender being the difference, do the paths that end in target articles about women differ in any way from the paths that end in target articles about men?
+    - Are the paths to target articles about women longer than those for men?
     - Do users find the paths that have a target article related to women more difficult than the average difficulty of path navigation? 
     - Is the play duration for target article about women longer than the average play duration?
     - Are there more back clicks in the paths that have a target article about women? 
@@ -36,23 +36,16 @@ Additionally, labelling articles about women and men is necessary and provides u
    <img width="493" alt="figure2" src="https://user-images.githubusercontent.com/52750379/202689884-60dee98b-064a-45d6-86f0-8e176f713a7a.png"> 
 </p>
 
-Calculation of statistical metrics and other relevant information concerning our project goals has to be extracted and added to our main dataframes. This information includes:
-- Human path length: the number of steps it takes a human to navigate from a source to a target
-- Shortest path length: the lowest possible number of steps it takes to navigate from a source to a target
-- Difficulty rating: user's evaluation of an objective path
-- Playtime duration
-- Success rate: rate of finished path compared to unfinished paths
-- In-degree: number of links towards a target article
-- Path deviation: ATH
+Calculation of statistical metrics and other relevant information concerning our project goals has to be extracted and added to our main dataframes, such as the human path length (the number of steps it takes a human to navigate from a source to a target), the shortest path lenght (the lowest possible number of steps it takes to navigate from a source to a target) and other statistical metrics mentioned in the following section.
 
 ### Statistical analysis
 
-In order for us to make statements about the dataset we have defined a few metrics/outcomes that will guide us during our analysis. 
+In order for us to make statements about the dataset we have defined a few metrics that will guide us during our analysis. They are the following:  
 
 - **success**: what influence does the gender of the article have on the success of being reached
 - **in_degree**: what influence does the gender have on the in_degree of the article
 - **playtime**: what, if any, influence does the gender of the target article have on the playtime of the path
-- **path deviation**: what influence does the gender of the article have on the path deviation between a human path and the shortest path
+- **path_deviation**: what influence does the gender of the article have on the path deviation between a human path and the shortest path
 
 #### Naive analysis
 
@@ -76,7 +69,7 @@ One suggestions for a variation of (3) is to manually group sub-categories into 
 
 ### Further explorations
 
-We have also started to explore the textual context of articles within the *People* category, e.g. the use of specific words for female and male articles. After finishing the analysis on the metrics, we want to further discover the relationship between the usage of gender-related words leading to a gender bias in the dataset. 
+We have also started to explore the textual context of articles within the *People* category, e.g. the use of specific words for female and male articles. After finishing the analysis on the metrics, we would like to further discover the relationship between the usage of gender-related words leading to a gender bias in the dataset. 
 
 ## Proposed timeline and internal milestones
 Our timeline consists of internal milestones on every Tuesday and Friday until the project deadline.
@@ -84,16 +77,16 @@ Our timeline consists of internal milestones on every Tuesday and Friday until t
 - 18.11.22: **Project milestone 2 deadline**
     - Pre-proccesing and cleaning of data finished, initial data analysis started.
 ---
-- 22.11.22: Review previous work, statistical analysis and carry on with data analyzation.
+- 22.11.22: Review previous work, carry on with statistical analysis.
 - 25.11.22: Finish naive analysis. 
 ---
 - 29.11.22: Project work paused in order to work on Homework 2.
 - 2.12.22: **Homework 2 deadline**
 ---
-- 6.12.22: Finish comparison of paths, controlling for all confounding factors.
-- 9.12.22: Finish prediction of textual context.
+- 6.12.22: Finish statistical analysis when controlling for all confounding factors.
+- 9.12.22: Visualizations and refinements. Explore the use of gender-related words.
 ---
-- 13.12.22: Visualizations and refinements. Construct a rought draft of the data story.
+- 13.12.22: Construct a rought draft of the data story.
 - 16.12.22: Work on data story.
 ---
 - 20.12.22: Complete the data story, add all necessary information to the final notebook and update README.
@@ -101,9 +94,9 @@ Our timeline consists of internal milestones on every Tuesday and Friday until t
 
 ## Organization within the team
 
-Malin: Initial data analysis and plots. Statistical analysis.
+Malin: Initial data analysis and plots. Statistical analysis. Website development.
 
-Maresa: Pre-proccessing data. Initial data analysis and plots. Prediction of textual context.
+Maresa: Pre-proccessing data. Initial data analysis and plots. Visualizations for data story.
 
 Greta: Develop textual context for data story. Website development. Visualizations for data story.
 
