@@ -2,7 +2,7 @@
 95,Abel_Tasman,Geographers_and_explorers,male,14,5,9.0,2.0,7.0,0.7777777777777778
 105,Abraham_Lincoln,USA_Presidents,male,35,62,37.0,2.0,35.0,0.9459459459459459
 129,Adam_Smith,Historical_figures,male,27,38,11.0,2.0,9.0,0.8181818181818182
-134,Adolf_Hitler,Political_People,male,78,109,695.0,94.0,601.0,0.8647482014388489
+134,Adolf_Hitler,Political_People,male,78,109,697.0,94.0,603.0,0.8651362984218077
 159,Agamemnon,Historical_figures,male,11,9,26.0,7.0,19.0,0.7307692307692307
 170,Akbar,Historical_figures,male,16,11,1.0,1.0,,
 172,Akhenaten,Historical_figures,male,12,5,6.0,1.0,5.0,0.8333333333333334
@@ -22,7 +22,7 @@
 205,Alfred_the_Great,Military_People,male,29,21,10.0,2.0,8.0,0.8
 206,Alfred_the_Great,Monarchs_of_Great_Britain,male,29,21,10.0,2.0,8.0,0.8
 270,Andr%C3%A9s_Nocioni,Sports_and_games_people,male,11,1,1.0,1.0,,
-271,Andrew_Carnegie,Engineers_and_inventors,male,41,12,22.0,18.0,4.0,0.18181818181818182
+271,Andrew_Carnegie,Engineers_and_inventors,male,41,12,23.0,19.0,4.0,0.17391304347826086
 272,Andrew_Dickson_White,Political_People,male,11,2,1.0,1.0,,
 274,Andrew_Jackson,USA_Presidents,male,16,22,17.0,4.0,13.0,0.7647058823529411
 275,Andrew_Johnson,USA_Presidents,male,8,16,10.0,1.0,9.0,0.9
@@ -109,7 +109,7 @@
 963,Charles_Dickens,Writers_and_critics,male,24,38,20.0,4.0,16.0,0.8
 964,Charles_Etienne_Brasseur_de_Bourbourg,Writers_and_critics,male,20,4,2.0,2.0,,
 966,Charles_II_of_England,Monarchs_of_Great_Britain,male,49,72,7.0,2.0,5.0,0.7142857142857143
-968,Charles_I_of_England,Monarchs_of_Great_Britain,male,41,64,21.0,3.0,18.0,0.8571428571428571
+968,Charles_I_of_England,Monarchs_of_Great_Britain,male,41,64,22.0,3.0,19.0,0.8636363636363636
 969,Charles_Sumner,Historical_figures,male,13,5,5.0,1.0,4.0,0.8
 970,Charles_V%2C_Holy_Roman_Emperor,Historical_figures,male,26,43,18.0,6.0,12.0,0.6666666666666666
 971,Charlie_Chaplin,Actors_models_and_celebrities,male,31,10,35.0,8.0,27.0,0.7714285714285715
@@ -159,7 +159,7 @@
 1433,Earl_of_Shaftesbury,Political_People,male,4,3,1.0,1.0,,
 1462,Edgar_Allan_Poe,Writers_and_critics,male,50,19,21.0,7.0,14.0,0.6666666666666666
 1466,Edmond_Halley,Mathematicians,male,20,10,4.0,,4.0,1.0
-1469,Edmund_Burke,Political_People,male,42,15,2.0,,2.0,1.0
+1469,Edmund_Burke,Political_People,male,42,15,4.0,,4.0,1.0
 1470,Edmund_Hillary,Geographers_and_explorers,male,14,4,7.0,2.0,5.0,0.7142857142857143
 1477,Edward_II_of_England,Monarchs_of_Great_Britain,male,12,13,20.0,5.0,15.0,0.75
 1479,Edward_IV_of_England,Monarchs_of_Great_Britain,male,17,16,13.0,4.0,9.0,0.6923076923076923
@@ -412,7 +412,7 @@
 2998,Margaret_Thatcher,Political_People,female,72,38,12.0,1.0,11.0,0.9166666666666666
 3002,Marie_Curie,Chemists,female,17,10,17.0,9.0,8.0,0.47058823529411764
 3006,Mark_Antony,Historical_figures,male,19,16,5.0,,5.0,1.0
-3007,Mark_Twain,Writers_and_critics,male,17,33,11.0,5.0,6.0,0.5454545454545454
+3007,Mark_Twain,Writers_and_critics,male,17,33,12.0,5.0,7.0,0.5833333333333334
 3009,Mark_Webber,Sports_and_games_people,male,19,1,,,,
 3020,Martin_Luther,Religious_figures_and_leaders,male,22,38,20.0,3.0,17.0,0.85
 3021,Martin_Luther_King%2C_Jr.,Political_People,male,44,24,16.0,3.0,13.0,0.8125
