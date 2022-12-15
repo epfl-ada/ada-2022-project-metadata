@@ -1,0 +1,13 @@
+,source,target,finished,human_path_length,shortest_path_length,durationInSec,type,failure_article,rating,backclicks,hashedIpAddress,timestamp,name,category,gender
+257,Ganesha,Mao_Zedong,True,4,3,133,,,,0,23e9898629635546,1298830068,Mao_Zedong,Political_People,male
+36,Space_Race,Elizabeth_I_of_England,True,7,3,1860,,,,0,0dcf273f5680894f,1384892863,Elizabeth_I_of_England,Monarchs_of_Great_Britain,female
+5201,Spacecraft_propulsion,Helen,True,8,4,210,,,3.0,1,514b178d530ef2a0,1379280042,Helen,Historical_figures,female
+5932,Nintendo,Osama_bin_Laden,True,4,3,116,,,3.0,0,598e88d166ee9f90,1263147216,Osama_bin_Laden,Political_People,male
+7496,Philippines,Margaret_Thatcher,True,4,3,60,,,1.0,0,0d57c8c57d75e2f5,1282402243,Margaret_Thatcher,Political_People,female
+8003,Margaret_Sanger,James_I_of_England,True,6,3,96,,,2.0,0,0d57c8c57d75e2f5,1282400881,James_I_of_England,Monarchs_of_Great_Britain,male
+3759,Ganesha,Elizabeth_II_of_the_United_Kingdom,True,7,3,71,,,,0,0d57c8c57d75e2f5,1277661522,Elizabeth_II_of_the_United_Kingdom,Political_People,female
+5593,Space_Race,Richard_III_of_England,True,9,3,392,,,4.0,0,41ccca6f742ffb73,1298822214,Richard_III_of_England,Monarchs_of_Great_Britain,male
+3526,Spacecraft_propulsion,William_Ewart_Gladstone,True,6,4,100,,,3.0,0,172290522cf04e1e,1381904854,William_Ewart_Gladstone,Historical_figures,male
+3938,Nintendo,Condoleezza_Rice,True,4,3,73,,,2.0,0,68c9826f016b0a60,1331574552,Condoleezza_Rice,Political_People,female
+5902,Philippines,Osama_bin_Laden,True,4,3,48,,,1.0,0,1fde1eee04c26e06,1317610201,Osama_bin_Laden,Political_People,male
+6796,Margaret_Sanger,William_and_Mary,True,9,3,1474,,,,0,40e3f8e21c560cbc,1370740444,William_and_Mary,Monarchs_of_Great_Britain,female
