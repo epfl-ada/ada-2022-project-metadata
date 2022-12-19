@@ -34,11 +34,11 @@ Additionally, labelling articles about women and men is necessary and provides u
 <img width="634" alt="figure2" src="https://user-images.githubusercontent.com/52750379/202790967-74f0fe9d-a666-4e35-8654-04590351888b.png">
 </p>
 
-Calculation of statistical metrics and other relevant information concerning our project goals has to be extracted and added to our main dataframes, such as the human path length (the number of steps it takes a human to navigate from a source to a target), the shortest path lenght (the lowest possible number of steps it takes to navigate from a source to a target) and other statistical metrics mentioned in the following section.
-
 In order to identify between articles about women and men, since we are only interested in paths that go from a certain source article to a target article either about a man or a woman, we aimed to filter out from the original dataset all target articles about women/men, i.e., that are classified as *People*. 
 
 Our first idea to identify the gender of articles was to use Wikidata:SPARQL query service to extract and build a list of Wikipedia articles about women, and compare this list to our articles about people. However, this turned out to be an infeasible solution, since this method did not find every woman article in our dataset. Our second attempt was a brute-force method, where we went through a list of all articles about people and identified those who where about women. Out of all the articles, only 6% where about women. The resulting dataframe consists of a list of articles about women and their corresponding subcategory within the *People* category. The file, *listwomen.txt*, can be found in the folder `/data/`. Additionally, there are two more datasets in the folder `/data/`, called *all_paths_overview.csv* and *people_overview.csv*, that are the results of our pre-proccessing further elaborated on in our project notebook.
+
+Calculation of statistical metrics and other relevant information concerning our project goals has to be extracted and added to our main dataframes, such as the human path length (the number of steps it takes a human to navigate from a source to a target), the shortest path lenght (the lowest possible number of steps it takes to navigate from a source to a target) and other statistical metrics mentioned in the following section.
 
 ### Statistical analysis
 
