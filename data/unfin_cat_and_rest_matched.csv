@@ -1,0 +1,7 @@
+,source,target,finished,human_path_length,shortest_path_length,path_deviation,playtime_sec,playtime_min,type,failure_article,difficulty_rating,number_backclicks,hashedIpAddress,timestamp,category,gender,nr_link_in,in_degree_rep,success_rate
+4858,Nintendo_Entertainment_System,Christina_Aguilera,False,5,3,2,34,0.5666666666666667,restart,<,,2,457d35c368464688,1374840036,Performers_and_composers,female,5,1,
+7347,North_Korea,Joan_of_Arc,False,3,3,0,1871,31.183333333333334,timeout,France,,0,69421fe945903a96,1323044081,Military_People,female,7,1,
+1535,Fishing,H.D.,False,3,3,0,40,0.6666666666666666,restart,<,,1,26af63bb74c8d26d,1328882387,Writers_and_critics,female,6,1,
+2256,Nintendo_Entertainment_System,Joseph_Haydn,False,3,3,0,1916,31.933333333333334,timeout,Finland,,0,2c964c92112ea36b,1304512248,Performers_and_composers,male,14,1,
+4182,North_Korea,John_Pershing,False,3,3,0,1826,30.433333333333334,timeout,Battle_of_the_Bulge,,0,7629ac726d25bcaf,1346268968,Military_People,male,3,1,
+6426,Fishing,Dante_Alighieri,False,3,3,0,1930,32.166666666666664,timeout,Dark_Ages,,0,512efb004684eeab,1351797415,Writers_and_critics,male,40,2,

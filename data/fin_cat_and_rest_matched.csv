@@ -1,0 +1,13 @@
+,source,target,finished,human_path_length,shortest_path_length,path_deviation,playtime_sec,playtime_min,type,failure_article,difficulty_rating,number_backclicks,hashedIpAddress,timestamp,category,gender,nr_link_in,in_degree_rep,success_rate
+5339,Nintendo,Osama_bin_Laden,True,4,3,1,116,1.9333333333333333,,,3.0,0,598e88d166ee9f90,1263147216,Political_People,male,15,1,1.0
+239,Ganesha,Mao_Zedong,True,4,3,1,133,2.216666666666667,,,,0,23e9898629635546,1298830068,Political_People,male,32,2,
+7120,Margaret_Sanger,James_I_of_England,True,6,3,3,96,1.6,,,2.0,0,0d57c8c57d75e2f5,1282400881,Monarchs_of_Great_Britain,male,49,3,
+34,Space_Race,Elizabeth_I_of_England,True,7,3,4,1860,31.0,,,,0,0dcf273f5680894f,1384892863,Monarchs_of_Great_Britain,female,63,3,
+6706,Philippines,Margaret_Thatcher,True,4,3,1,60,1.0,,,1.0,0,0d57c8c57d75e2f5,1282402243,Political_People,female,38,2,
+4693,Spacecraft_propulsion,Helen,True,8,4,4,210,3.5,,,3.0,1,514b178d530ef2a0,1379280042,Historical_figures,female,7,1,
+3560,Nintendo,Condoleezza_Rice,True,4,3,1,73,1.2166666666666666,,,2.0,0,68c9826f016b0a60,1331574552,Political_People,female,15,1,
+3407,Ganesha,Elizabeth_II_of_the_United_Kingdom,True,7,3,4,71,1.1833333333333333,,,,0,0d57c8c57d75e2f5,1277661522,Political_People,female,131,6,
+6093,Margaret_Sanger,William_and_Mary,True,9,3,6,1474,24.566666666666666,,,,0,40e3f8e21c560cbc,1370740444,Monarchs_of_Great_Britain,female,8,1,
+5042,Space_Race,Richard_III_of_England,True,9,3,6,392,6.533333333333333,,,4.0,0,41ccca6f742ffb73,1298822214,Monarchs_of_Great_Britain,male,15,1,
+5309,Philippines,Osama_bin_Laden,True,4,3,1,48,0.8,,,1.0,0,1fde1eee04c26e06,1317610201,Political_People,male,15,1,1.0
+3208,Spacecraft_propulsion,William_Ewart_Gladstone,True,6,4,2,100,1.6666666666666667,,,3.0,0,172290522cf04e1e,1381904854,Historical_figures,male,20,1,
