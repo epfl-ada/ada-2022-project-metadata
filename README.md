@@ -71,10 +71,6 @@ Constraint (1) is the minimum requirement. Simultaneously, all four constraints 
 
 One suggestions for a variation of (3) is to manually group sub-categories into bigger categories (e.g. combine *Political_People* and *USA_Presidents* into one group).
 
-### Further explorations
-
-We have also started to explore the textual context of articles within the *People* category, e.g. the use of specific words for female and male articles. After finishing the analysis on the metrics, we would like to further discover the relationship between the usage of gender-related words leading to a gender bias in the dataset. 
-
 ## Proposed timeline and internal milestones
 Our timeline consists of internal milestones on every Tuesday and Friday until the project deadline.
 
@@ -88,7 +84,7 @@ Our timeline consists of internal milestones on every Tuesday and Friday until t
 - 2.12.22: **Homework 2 deadline**
 ---
 - 6.12.22: Finish statistical analysis when controlling for all confounding factors.
-- 9.12.22: Visualizations and refinements. Explore the use of gender-related words.
+- 9.12.22: Visualizations and refinements.
 ---
 - 13.12.22: Construct a rought draft of the data story.
 - 16.12.22: Work on data story.
