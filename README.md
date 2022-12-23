@@ -47,9 +47,9 @@ In order for us to make statements about the dataset we have defined a few metri
 - **success**: what influence does the gender of the article have on the success of being reached
 - **playtime**: what, if any, influence does the gender of the target article have on the playtime of the path
 - **path_deviation**: what influence does the gender of the article have on the path deviation between a human path and the shortest path
+- **in_degree**: what influence does the gender have on the in_degree of the article
 - **number_backclicks**: what influence does the gender of the article have on the number of backclicks a user takes when navigating thorugh a path
 - **difficulty_rating**: what influence does the gender of the article have on the difficulty rating that a user rates a path
-- **in_degree**: what influence does the gender have on the in_degree of the article
 
 #### Naive analysis
 
