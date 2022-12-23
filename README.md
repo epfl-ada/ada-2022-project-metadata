@@ -31,7 +31,7 @@ In order to carry on with meaningful analysis of our project goals, we need to c
 Additionally, labelling articles about women and men is necessary and provides us with the possibility to compare the paths that have women as a target article versus the ones that have men as a target arcticle. In the following figure, we can see the amount of articles about women compared to those about men within each subcategory of the *People* category.
  
 <p align="center">
-<img width="509" alt="figure2" src="https://user-images.githubusercontent.com/52750379/209293522-7f073751-354c-4973-bb4e-3e29973e2837.png">
+<img width="634" alt="figure2" src="https://user-images.githubusercontent.com/52750379/209293522-7f073751-354c-4973-bb4e-3e29973e2837.png">
 </p>
 
 In order to identify between articles about women and men, since we are only interested in paths that go from a certain source article to a target article either about a man or a woman, we aimed to filter out from the original dataset all target articles about women/men, i.e., that are classified as *People*. 
